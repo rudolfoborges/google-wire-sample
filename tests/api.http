@@ -1,0 +1,15 @@
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "title": "Learn Golang",
+  "description": "Learn Golang"
+}
+
+###
+GET http://localhost:3000/todos
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/todos/1/complete
+Content-Type: application/json
